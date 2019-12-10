@@ -1,0 +1,19 @@
+Source: hpp-spline
+Priority: optional
+Maintainer: Pierre Gergondet <pierre.gergondet@gmail.com>
+Standards-Version: 3.9.5
+Section: misc
+Homepage: https://github.com/humanoid-path-planner/hpp-spline
+Vcs-git: https://github.com/humanoid-path-planner/hpp-spline
+Vcs-Browser: https://github.com/humanoid-path-planner/hpp-spline
+Build-Depends: debhelper (>= 9),
+               pkg-config,
+               cmake,
+               libeigen3-dev
+
+Package: libhpp-spline-dev
+Architecture: any
+Section: libdevel
+Depends: pkg-config,
+         ${misc:Depends}
+Description: A template-based library for creating curves of arbitrary order
