@@ -68,7 +68,7 @@ jobs:
           desc: "A template-based library for creating curves of arbitrary order"
           licenses: [BSD 2-Clause]
           vcs_url: https://github.com/humanoid-path-planner/hpp-spline
-        version: 4.8.0
+        version: 4.8.2
         path: packages-${{ matrix.dist }}-${{ matrix.arch }}
         BINTRAY_API_KEY: ${{ secrets.BINTRAY_API_KEY }}
         GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
@@ -84,7 +84,7 @@ jobs:
           desc: "A template-based library for creating curves of arbitrary order"
           licenses: [BSD 2-Clause]
           vcs_url: https://github.com/humanoid-path-planner/hpp-spline
-        version: 4.8.0
+        version: 4.8.2
         path: packages-${{ matrix.dist }}-${{ matrix.arch }}
         BINTRAY_API_KEY: ${{ secrets.BINTRAY_API_KEY }}
         GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
