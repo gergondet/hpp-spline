@@ -21,7 +21,7 @@ namespace spline {
 /// is Safe is false, no verification is made on the evaluation of the curve.
 template <typename Time = double, typename Numeric = Time, std::size_t Dim = 3, bool Safe = false,
           typename Point = Eigen::Matrix<Numeric, Dim, 1> >
-struct curve_abc : std::unary_function<Time, Point> {
+struct curve_abc {
   typedef Point point_t;
   typedef Time time_t;
 
